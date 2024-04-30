@@ -1,0 +1,294 @@
+/* ここから下に記載していく */
+.wrap {
+    text-align: center;
+    min-width: 1200px;
+    background-color: rgb(253, 253, 224);
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.logo {
+    padding-left: 35px;
+    width: 210px;
+}
+
+nav {
+    padding: 25px;
+    margin: 25px;
+    font-size: 21px;
+}
+
+.menu {
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    position: relative;
+    /*親要素にrelative*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.one {
+    width: 1200px;
+}
+
+h1 {
+    font-size: 48px;
+    padding-bottom: 30px;
+    color: azure;
+    text-shadow: 0 0 15px black;
+    white-space: nowrap;
+}
+
+.sabtitle {
+    font-size: 32px;
+    color: azure;
+    white-space: nowrap;
+    text-shadow: 0 0 15px black;
+}
+
+.impact-title {
+    position: absolute;
+    /*文字にabsolute*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: darkkhaki;
+    font-size: 25px;
+}
+
+.explanation {
+    padding-bottom: 40px;
+    line-height: 25px
+}
+
+h3 {
+    padding-bottom: 40px;
+    line-height: 25px
+}
+
+.img {
+    /* container-type: inline-size;
+    overflow: auto; */
+    /* max-width: 1300px; */
+    width: 1200px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img1 {
+    width: 25%;
+}
+
+.slide-container {
+    width: 25%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide-wrapper {
+    display: flex;
+    animation: slide-flow 30s infinite linear 1s both;
+}
+
+.slide {
+    width: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+@keyframes slide-flow {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+h4 {
+    padding-bottom: 60px;
+    line-height: 25px
+}
+
+.course-img {
+    /* width: 650px; */
+    width: 50%;
+}
+
+.course-1 {
+    display: flex;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: bold;
+    padding-bottom: 40px;
+}
+
+.course-exp1 {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 500px;
+    line-height: 25px
+}
+
+.course-exp2 {
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 500px;
+    line-height: 25px
+}
+
+.course-a {
+    white-space: [pre-wrap]
+}
+
+.sab-title {
+    padding-bottom: 60px;
+}
+
+.news {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    line-height: 25px
+}
+
+.news-img {
+    width: 340px;
+    object-fit: cover;
+}
+
+.news1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    filter: grayscale(45%);
+}
+
+.news1:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.content {
+    padding: 60px 0px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.access-table {
+    height: 50px;
+    border: 0px none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact {
+    padding-bottom: 30px;
+    line-height: 25px
+}
+
+.formtable {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.input {
+    padding: 7px;
+    margin: 7px;
+}
+
+.select {
+    width: 180px;
+    padding: 7px;
+    margin: 7px;
+}
+
+.becouse {
+    text-align: left;
+    padding: 7px;
+}
+
+th {
+    width: 35%;
+    text-align: left;
+}
+
+td {
+    width: 65%;
+    text-align: left;
+}
+
+.ext {
+    width: 180px;
+}
+
+table,
+td,
+th {
+    border: 1px gray solid;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.ant {
+    accent-color: #f9f778;
+}
+
+button {
+    margin: 30px auto 120px;
+    background-color: azure;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #f9f778;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #707070;
+}
